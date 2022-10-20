@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="criacao-de-tarefas">
+        <h2>Crie seus afazeres</h2>
+        <form>
+            <label for="tarefa">Nome da Tarefa:</label> <br>
+            <input type="text" id="tarefa"> <br>
+            <label for="descrição">Descrição:</label> <br>
+            <input type="text" id="descricao"> <br>
+            <label for="prioridade">Grau de Prioridade:</label> <br>
+            <input type="number" id="prioridade" min="0" max="3"> <br>
+            <label for="data">Data de entrega:</label><br>
+            <input type="date" id="data"> <br>
+        </form>
+        <button onclick="resultado()" id="botao">Criar Tarefa</button>
+    </div>
+</body>
+</html>
